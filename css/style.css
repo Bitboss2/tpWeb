@@ -78,11 +78,25 @@ header{
 }
 
 #image_cocktail{
-    width : 45% ;
+    display : block ;
+    width : 100% ;
     border-radius : 25px ;
 }
 
-#texte, #image_cocktail { flex: 1 1 300px; }
+#imageEtCCdumois{
+    position : relative;
+    flex: 1 1 300px;
+}
+
+#image_promo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    width : 25%;
+}
+
+#texte { flex: 1 1 300px; }
 
 h1{
     font-family: "Lacquer", system-ui;
