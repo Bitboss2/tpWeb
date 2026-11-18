@@ -26,6 +26,7 @@ body{
     border-radius : 25px ;
     padding: 20px;
     box-shadow: 0 8px 25px #9b5300;
+    margin-bottom: 25px;
 }
 
 header{
@@ -149,3 +150,61 @@ footer{
     font-style: normal;
     text-align : center;
 }
+
+@media all and (max-width:1024px) {
+    #main_container{
+        width: 80%;
+        padding:5%;
+    }
+
+    #titre_du_site{
+        display: none;
+    }
+    #texteEtLogo{
+        margin: 0% 0% 0% 0%;
+    }
+    header{
+        margin : 0% ;
+    }
+
+    #texteEtLogo{
+    display : flex ;
+    flex-direction : column ;
+    flex-wrap : wrap ;
+    justify-content : space-evenly ;
+    margin : 0% ;
+    padding-top: 25px;
+    font-size : 1.90em ;
+    img{
+        border-radius : 25px ;
+    }
+  }
+
+  #menu{
+    display : flex ;
+    flex-direction : column ;
+    flex-wrap : wrap ;
+    gap : 0px ;
+    font-family: "PT Serif", serif ;
+    font-weight: 400;
+    text-align : left;
+    border-radius : 25px ;
+    padding: 0px 17px 0px 17px ;
+    font-weight : bold ;
+}
+
+header{
+    background-color : rgba(255, 201, 131, 0.6);
+    margin : 0px ;
+    border-radius : 0px ;
+}
+
+#main_container{
+    margin-top: 25px;
+}
+
+#ingredientsEtRecette{
+    flex-direction: column ;
+}
+
+}      
