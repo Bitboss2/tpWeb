@@ -42,17 +42,16 @@
           </p>
         </div>
         <div id="imageEtCCdumois">
-        <img
-          id="image_cocktail"
-          src="./images/041220251764849643.jpg"
-          alt="image d'un cocktail"
-        />
-        <img
-          id="image_promo"
-          src="./images/cocktail-mois.c8ff7847.png"
-          alt="icone du cocktail du mois"
-        />
-
+          <img
+            id="image_cocktail"
+            src="./images/041220251764849643.jpg"
+            alt="image d'un cocktail"
+          />
+          <img
+            id="image_promo"
+            src="./images/cocktail-mois.c8ff7847.png"
+            alt="icone du cocktail du mois"
+          />
         </div>
       </div>
       <ul class="linkColors">
@@ -104,6 +103,37 @@
         </section>
       </div>
     </div>
+
+    <div class="container">
+      <h2>Newsletter</h2>
+      <div class="form">
+        <div class="form__group">
+          <label for="email">EMAIL</label>
+          <input type="email" name="email" id="email" placeholder=" " required />
+        </div>
+        <div class="form__group">
+          <label for="url">Prenom</label>
+          <input type="text" name="prenom" id="prenom" placeholder=" " pattern="[a-z]{1,16}" required />
+        </div>
+        <div class="form__group">
+          <label for="nom">NOM</label>
+          <input type="text" name="nom" id="nom" placeholder=" " pattern="[a-z]{2,16}" required />
+        </div>
+        <div class="form__group">
+          <label for="boisson">boisson préférée</label>
+          <div class="form__group">
+            <input type="button" name="nom" id="nom" value="Jus de tomate" />
+          </div>
+          <div class="form__group">
+            <input type="button" name="nom" id="nom" value="Coca" />
+          </div>
+          <div class="form__group">
+            <input type="button" name="nom" id="nom" value="Orangina" />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>Copyright © 2026 Horia Tecuceanu. Tous droits réservés.</footer>
   </body>
 </html>

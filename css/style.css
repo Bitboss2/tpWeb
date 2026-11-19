@@ -151,6 +151,75 @@ footer{
     text-align : center;
 }
 
+
+
+
+
+
+
+
+
+
+
+.container {
+  background-color: rgb(253, 217, 149);
+  padding: 3em;
+  width: 300px;
+  margin : auto;
+  margin-bottom: 25px;
+  border-radius: 5%;
+}
+input,
+label {
+  color: #554500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+.form__group {
+  padding: 1em;
+}
+input {
+  border: 2px solid #fff;
+  border-radius: 100rem;
+  outline: none;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  background: #fff;
+  transition : all 1s;
+}
+
+input:focus {
+  border: 2px solid #814e00;  
+}
+
+/* Ne colore l'input qu'après que l'utilisateur a commencé à taper */
+input:not(:placeholder-shown):invalid {
+  background: #ffe3e8;
+  border: 2px solid #b20a37;
+  color: #b20a37;
+}
+
+input:not(:placeholder-shown):valid {
+  background: #dcffdc;
+  border: 2px solid #176300;
+  color: #176300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media all and (max-width:1024px) {
     #main_container{
         width: 80%;
